@@ -22,7 +22,7 @@ Supports a maximum of 10 applications. If required, it is possible to change the
     $ git commit -a -m "New changes"
     $ heroku apps:create
     $ git push heroku master
-    $ heroku heroku ps:scale web=0 clock=1
+    $ heroku ps:scale web=0 clock=1
     
 Done!
 
