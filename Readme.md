@@ -17,7 +17,7 @@ Then edit worker.rb, changing the url or adding new rules for other applications
       Net::HTTP.get(URI('http://sfsf-werw-wr.heroku.com'))
     end    
 
-Supports a maximum of 10 applications. If required, it is possible to change the time of the survey. In this example, 20 minutes.
+If required, it is possible to change the time of the survey. In this example, 20 minutes.
 
     $ git commit -a -m "New changes"
     $ heroku apps:create
